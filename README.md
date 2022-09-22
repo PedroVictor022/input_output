@@ -7,3 +7,7 @@
    + Importe e lib 'dart:io'
    + Chame a função de escrita: stdin.readLineSync()
    + Guardando infos: String? input = stdin.readLineSync();
+
+   ## Exercicio
+   - Faça um programa que pergunte o nome, peso, altura do usuario e exiba uma mensagem retornando o calculo do IMC.
+   
