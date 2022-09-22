@@ -9,6 +9,9 @@ void main() {
 
 
   // Entrada de dados
-  stdin.readLineSync();
+  // stdin.readLineSync();
   print('Texto foi escrito');
+  print('Qual é a sua idade? ');
+  String? idadeUser = stdin.readLineSync();
+  print('A sua idade é $idadeUser');
 }
