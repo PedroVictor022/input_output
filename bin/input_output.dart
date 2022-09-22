@@ -1,5 +1,14 @@
-import 'package:input_output/input_output.dart' as input_output;
+import "dart:io";
 
-void main(List<String> arguments) {
-  print('Hello world: ${input_output.calculate()}!');
+void main() {
+  int idade = 20;
+
+  // Saída de dados
+  print("Minha idade é $idade");
+  print("Minha idade no ano que vem será ${idade + 1}");
+
+
+  // Entrada de dados
+  stdin.readLineSync();
+  print('Texto foi escrito');
 }
